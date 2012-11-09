@@ -22,6 +22,11 @@ end
 
 group :test do
   gem 'rspec-rails'
+  gem 'shoulda-matchers'
+end
+
+group :development, :test do
+  gem 'simplecov'
 end
 
 # jQuery
